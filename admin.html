@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin</title>
+    <style>
+        .data{
+            padding: 50px 100px;
+            font-family: Segoe UI;
+        }
+        .title{
+            font-weight: 300;
+            text-align: center;
+        }
+        .table{
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+        th{
+            color: white;
+            background-color: #5dd318;
+        }
+        th,td{
+            padding: 10px;
+            border: 1px solid #efefef;
+            text-align: center;
+        }
+    </style>
+</head>
+
+ <body class="container">
+<!-- Body of Form starts -->
+<div class="data">
+    <h1 class="title">ADMIN PAGE</h1>
+    <!--Table-->
+     <table  class="table" border="1">
+         <thead>
+             <tr>
+                <th>NAME</th> 
+                <th>EMAIL</th>
+                <th>AGE</th>
+                <th>PHONE NO.</th>
+                <th>ADHAAR NO.</th>
+                <th>ADDRESS</th>
+                <th>DATE</th>
+            </tr>
+        </thead>
+            
+        <tbody id="showUsers">
+                 
+        </tbody>
+    </table>
+    <!--Table-->
+</div>
+<!-- Body of Form Ends -->
+</body>
+<script src="./adminScript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</html>
+
+
+
